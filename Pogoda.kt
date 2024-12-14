@@ -34,7 +34,7 @@ fun main() {
 
     println("Wybierz miasto " + " 1 - Warszawa " + " 2 - Gdańsk" + " 3 - Kraków: ")
 
-    val choice = readLine()?.toIntOrNull()
+    val choice = readLine()?.toInt()
 
     val selectedCity = cities[choice!! - 1]
     println("Prognoza pogody dla ${selectedCity.name}: ${selectedCity.weather.pogoda()}")
