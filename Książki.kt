@@ -1,6 +1,6 @@
 package com.example.trudnekonsolowe
 
-data class Book(val title: String, val author: String, val year: Int)
+class Book(val title: String, val author: String, val year: Int)
 
 val booksList = mutableListOf<Book>()
 
